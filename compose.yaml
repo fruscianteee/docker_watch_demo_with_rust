@@ -19,8 +19,6 @@ services:
         - action: rebuild
           path: ./src
         - action: rebuild
-          path: Cargo.lock
-        - action: rebuild
           path: ./templates
 
 # The commented out section below is an example of how to define a PostgreSQL
